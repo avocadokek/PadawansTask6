@@ -27,13 +27,18 @@ namespace PadawansTask6
                 break;
 
             }
+            if (number < 0)
+            {
+                return null;
+            }
 
 
-
-            return number;
+                return number;
             throw new NotImplementedException();
             throw new ArgumentNullException();
             throw new ArgumentException();
+            throw new ArgumentOutOfRangeException();
+           
         }
         public static void Main()
         {
