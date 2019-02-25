@@ -32,7 +32,6 @@ namespace PadawansTask6
                 return null;
             }
 
-
                 return number;
             throw new NotImplementedException();
             throw new ArgumentNullException();
@@ -40,10 +39,6 @@ namespace PadawansTask6
             throw new ArgumentOutOfRangeException();
            
         }
-        public static void Main()
-        {
-            var result = NextBiggerThan(76);
-            Console.WriteLine(result);
-        }
+      
     }
 }
